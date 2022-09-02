@@ -28,15 +28,17 @@
             </li>
             <li class="menu-item hidden">
                <button type="button" class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img height="20" width="20" src="<?=base_url()?>/bandeiras/pt.png" class="text-center">
-                    PT
+                    <img height="20" width="20" src="<?=base_url()?>/bandeiras/pt.png">
+                    Português
                 </button>
                 <ul class="dropdown-menu">
-                    <li class="d-flex justify-content-center align-items-center">
-                        <a class="col-md-12 align-items-center dropdown-item" href="en">
-                            <img height="20" width="20" src="<?=base_url()?>/bandeiras/en.png" class="text-center">
-                            English
-                        </a>
+                    <li class="col-md-12">
+                        <button type="button" class="btn btn-light col-12">
+                            <div class="m-auto align-self-center d-flex align-items-center justify-content-md-start">
+                                <img class="m-1" height="20" width="20" src="<?=base_url()?>/bandeiras/en.png">
+                                <p class="p-0 m-0">Inglês</p>
+                            </div>
+                        </button>
                     </li>
                 </ul>
             </li>
